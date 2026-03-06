@@ -124,3 +124,83 @@ input:focus{
     background-color: rgba(180, 180, 180, 0.1);
     border-radius: 6px;
 }
+
+/* Mobile media query */
+@media (max-width: 600px) {
+
+    .chatWindow {
+        height: 100vh;
+    }
+
+    .navbar span {
+        margin: 0.8rem 1rem;
+        font-size: 0.9rem;
+    }
+
+    .userIconDiv {
+        margin: 0.8rem 1rem;
+    }
+
+    .chatInput {
+        padding: 0.5rem;
+    }
+
+    .inputBox {
+        max-width: 95%;
+    }
+
+    input {
+        padding: 14px;
+        font-size: 0.9rem;
+    }
+
+    #send {
+        right: 10px;
+        font-size: 18px;
+    }
+
+    .info {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+        text-align: center;
+    }
+
+    .dropDown {
+        right: 1rem;
+        top: 3.5rem;
+        width: 160px;
+    }
+
+}
+
+
+/* tablet media query */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .navbar span {
+        margin: 1rem 1.5rem;
+    }
+
+    .userIconDiv {
+        margin: 1rem 1.5rem;
+    }
+
+    .inputBox {
+        max-width: 85%;
+    }
+
+    input {
+        padding: 18px;
+    }
+
+    #send {
+        right: 12px;
+    }
+
+    .dropDown {
+        right: 2rem;
+        top: 3.5rem;
+    }
+
+}

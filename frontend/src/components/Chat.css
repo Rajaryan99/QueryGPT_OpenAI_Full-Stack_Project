@@ -34,6 +34,48 @@
     border-radius: 14px;
 }
 
+/* Mobile media query */
 
+@media (max-width: 600px) {
 
+    .chats {
+        max-width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .userMessage {
+        margin-left: auto;
+        max-width: 85%;
+        padding: 8px 14px;
+        font-size: 0.9rem;
+    }
+
+    .GPTdiv {
+        font-size: 0.85rem;
+    }
+
+    .userDiv {
+        justify-content: flex-end;
+    }
+
+}
+
+/* tablet media query */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    .chats {
+        max-width: 90%;
+        padding: 4rem 2rem;
+    }
+
+    .userMessage {
+        margin-left: auto;
+        max-width: 70%;
+    }
+
+    .GPTdiv {
+        font-size: 0.9rem;
+    }
+
+}
 
